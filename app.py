@@ -28,7 +28,7 @@ def get_widgets():
     )
     cursor = mydb.cursor()
 
-
+#comentario sin utilidad
     cursor.execute("SELECT * FROM widgets")
 
     row_headers=[x[0] for x in cursor.description] #this will extract row headers
